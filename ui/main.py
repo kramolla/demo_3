@@ -6,8 +6,8 @@ from PySide6.QtWidgets import (
 from db.connection import engine
 from sqlalchemy.orm import Session
 session = Session(engine)
-from PySide6.QtGui import QFont, QIcon, QPixmap, QRegularExpressionValidator
-from PySide6.QtCore import Qt, QRegularExpression
+from PySide6.QtGui import QFont, QIcon, QPixmap
+from PySide6.QtCore import Qt
 from sqlalchemy import func
 from db.models.partner import PartnerModel
 from db.models.order import OrderModel
